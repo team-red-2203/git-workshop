@@ -16,8 +16,22 @@
 </head>
 
 <body>
-  <h1>おみくじ</h1>
 
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-5 text-center">
+        <h1 class="mt-5">おみくじ</h1>
+        <img src="./img/building_yasukuni_jinja.png" alt="" class="w-100">
+        <div class="btn-wrap">
+          <a href="javascript:randomLink();" class="btn btn--red btn--radius btn--cubic">おみくじを引く</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const randomLink = () => { alert('test') }
+  </script>
 </body>
 
 </html>
