@@ -1,9 +1,14 @@
 //リンク先のURLを配列にする
 result = ["daikichi.html"];
 
-function randomLink(){
-    //ランダムでリンクの配列のインデックスを決める
-    link = Math.floor(Math.random()*result.length);
-    //リンク先を返す
-    return location.href = "result/" + result[link];
+
+const buttonOpen = document.getElementById('modalOpen');
+const modal = document.getElementById('easyModal');
+const buttonClose = document.getElementsByClassName('modalClose')[0];
+
+//ボタンがクリックされた時
+buttonOpen.addEventListener('click', modalOpen,false);
+function modalOpen(){
+    modal.style.display = 'block';
 }
+
