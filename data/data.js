@@ -1,12 +1,12 @@
-const luckyItem = {
-  '麦わら帽子': 'fashion_mugiwaraboushi',
-  'えんぴつ': 'bunbougu_memo',
-  '万年筆': 'techou_open',
-  'テニスボール': 'sport_tennis_ball',
-  'コーヒー': 'drink_coffee',
-  'おにぎり': 'onigiri_mentaiko',
-  '雨がさ': 'rain_kasatate_kasa',
-};
+const luckyItem = [
+  ['麦わら帽子', 'fashion_mugiwaraboushi'],
+  ['えんぴつ', 'bunbougu_memo'],
+  ['万年筆', 'techou_open'],
+  ['テニスボール', 'sport_tennis_ball'],
+  ['コーヒー', 'drink_coffee'],
+  ['おにぎり', 'onigiri_mentaiko'],
+  ['雨がさ', 'rain_kasatate_kasa'],
+];
 
 async function import_csv() {
   await fetch('./data/data.csv')
