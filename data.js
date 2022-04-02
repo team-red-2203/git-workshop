@@ -18,8 +18,11 @@ const data = [
 ];
 
 function randomResult() {
-    const randomNum = Math.floor(Math.random() * 10) % 6 + 1;
+    const randomNum = Math.floor( Math.random() * 6 );
+    const randomNumItem = Math.floor( Math.random() * 7 );
     document.getElementById('fortune').innerText = '運勢：' + data[randomNum][0];
     document.getElementById('image').setAttribute('src', 'img/imgOmikuji/' + data[randomNum][1] + '.png');
     document.getElementById('description').innerText = data[randomNum][2];
+    document.getElementById('item').innerText = luckyItem[randomNumItem][0];
+    // document.getElementById('itemImage').setAttribute('src', 'img/item/' + luckyItem[randomNumItem][1] + '.png');
 }

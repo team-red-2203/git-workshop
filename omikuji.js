@@ -1,7 +1,3 @@
-//リンク先のURLを配列にする
-result = ["daikichi.html"];
-
-
 const buttonOpen = document.getElementById('modalOpen');
 const modal = document.getElementById('easyModal');
 const buttonClose = document.getElementById('modalClose');
