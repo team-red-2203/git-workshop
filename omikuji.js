@@ -8,14 +8,16 @@ const buttonClose = document.getElementById('modalClose');
 
 //ボタンがクリックされた時モーダルウインドウを表示する
 buttonOpen.addEventListener('click', modalOpen);
-function modalOpen(){
+
+function modalOpen() {
+    console.log("aaa");
     modal.style.display = 'block';
+    import_csv();
 }
 
 //ボタンをクリックした時モーダルウインドウを削除する
 buttonClose.addEventListener('click', modalClose);
-function modalClose(){
+
+function modalClose() {
     modal.style.display = 'none';
 }
-
-
