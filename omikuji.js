@@ -10,9 +10,8 @@ const buttonClose = document.getElementById('modalClose');
 buttonOpen.addEventListener('click', modalOpen);
 
 function modalOpen() {
-    console.log("aaa");
     modal.style.display = 'block';
-    import_csv();
+    randomResult();
 }
 
 //ボタンをクリックした時モーダルウインドウを削除する
