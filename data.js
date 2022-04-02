@@ -25,5 +25,5 @@ function randomResult() {
     document.getElementById('image').setAttribute('src', 'img/imgOmikuji/' + data[randomNum][1] + '.png');
     document.getElementById('description').innerText = data[randomNum][2];
     document.getElementById('item').innerText = luckyItem[randomNumItem][0];
-    // document.getElementById('itemImage').setAttribute('src', 'img/item/' + luckyItem[randomNumItem][1] + '.png');
+    document.getElementById('itemImage').setAttribute('src', 'img/item/' + luckyItem[randomNumItem][1] + '.png');
 }
