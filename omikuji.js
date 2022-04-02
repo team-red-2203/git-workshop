@@ -10,6 +10,7 @@ function modalOpen() {
     randomResult();
 }
 
+
 //ボタンをクリックした時モーダルウインドウを削除する
 buttonClose.addEventListener('click', modalClose);
 

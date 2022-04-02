@@ -17,6 +17,7 @@ const data = [
     ["大凶", "onepiece20_santaisyou", "今日は試練の1日です。 大変ですが、 乗り越えれば大きくレベルアップできるでしょう。"]
 ];
 
+
 function randomResult() {
     const randomNum = Math.floor( Math.random() * 6 );
     const randomNumItem = Math.floor( Math.random() * 7 );
